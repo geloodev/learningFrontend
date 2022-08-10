@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- viewport adapt the view for any device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="...">
+
+    <title>My first webpage</title>
+
+    <!-- STYLE IS WRITEN IN CSS LANGUAGE -->
+    <style> 
+      img { 
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      /* method that modifies only the class "coffee" */ 
+      img.coffee {
+        width: 200px;
+        height: 200px;
+          object-fit: cover;
+      }
+      
+      /* method that modifies only the class "username" */
+      .username {
+        font-weight: bold;
+      }
+
+      em {
+        color: red;
+        font-style: normal;
+      }
+    </style>
+
+  </head>
+
+  <body> 
+
+    <!-- HEADING 1 -->
+    <h1>HEADING 1</h1> 
+
+    <img src="images/geloodev.jpeg" alt="an image of ângelo"> 
+    
+    <!-- paragraph with a class -->
+    <p class="username">@geloodev</p>
+
+    <p>I love to learn <em>HTML</em>!</p>
+    <!-- em = emphasys 
+     strong = importance or seriousness 
+    -->
+
+    <!-- Hyperlink to other page -->
+    <a href="about.html">About Me</a>
+
+    <!-- Hyperlink to download a image -->
+    <a href="images/geloodev.jpeg" download>My Photo</a>
+
+    <!-- Hyperlink to a section in the actual page-->
+    <a href="#section-heading2">Heading 2</a>
+
+    <!-- Hyperlink to a external webpage -->
+    <a href="https://google.com" target="_blank">Google</a> 
+    <!-- _blank opens the URL in a new tab -->
+
+    <!-- HEADING 2 -->
+    <h2 id="section-heading2">Heading 2</h2>
+        <img class="coffee" src="images/coffee.jpg" alt="a cup of coffee">
+    <p>
+      Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+    </p>
+
+    <a href="#">JUMP TO TOP</a>
+  </body>
+</html> 
